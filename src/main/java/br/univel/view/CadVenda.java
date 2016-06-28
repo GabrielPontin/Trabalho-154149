@@ -305,7 +305,7 @@ public class CadVenda extends JFrame {
 
 		int index = table.getSelectedRow();
 		if (index == -1) {
-			JOptionPane.showMessageDialog(null, "Linha não selecionada");
+			JOptionPane.showMessageDialog(null, "Linha nao selecionada");
 
 		} else {
 			p = ((TabelaModel) table.getModel()).getClienteNaLinha(index);
@@ -415,7 +415,7 @@ public class CadVenda extends JFrame {
 
 	}
 
-	// Pega a hora e retorna para a variavel que chamou o método
+	// Pega a hora e retorna para a variavel que chamou o metodo
 	public String horaVenda() {
 		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy HH:mm");
 		Date date = new Date();
